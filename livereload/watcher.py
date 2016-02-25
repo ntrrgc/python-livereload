@@ -34,7 +34,7 @@ class Watcher(object):
     def ignore(self, filename):
         """Ignore a given filename or not."""
         _, ext = os.path.splitext(filename)
-        return ext in ['.pyc', '.pyo', '.o', '.swp']
+        return ext in ['.pyc', '.pyo', '.o', '.swp', '.ts']
 
     def watch(self, path, func=None, delay=0, ignore=None):
         """Add a task to watcher.
