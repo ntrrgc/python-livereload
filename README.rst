@@ -18,11 +18,7 @@ Python LiveReload is designed for web developers who know Python.
 
 Install Python LiveReload with pip::
 
-    $ pip install livereload
-
-If you don't have pip installed, try easy_install::
-
-    $ easy_install livereload
+    $ pip install git+https://github.com/ntrrgc/python-livereload.git
 
 Command Line Interface
 ----------------------
