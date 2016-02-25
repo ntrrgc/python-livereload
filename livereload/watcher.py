@@ -123,6 +123,8 @@ class Watcher(object):
                 dirs.remove('.svn')
             if '.cvs' in dirs:
                 dirs.remove('.cvs')
+            if '.idea' in dirs:
+                dirs.remove('.idea')
 
             for f in files:
                 if self.is_file_changed(os.path.join(root, f), ignore):
